@@ -93,24 +93,29 @@ server/
    cd career-navigator
 
 ### 2. Установи зависимости:
-
+```bash
     cd client
     npm install
 
     cd ../server
     npm install
+```
 
 
-    Создай файл .env в папке server и настрой переменные окружения.
+    **Создай файл .env в папке server и настрой переменные окружения.**
 
 ### 3. Запусти сервер и клиент:
 
-    ## Сервер:
+    ** Сервер:**
+       ```bash
         cd server
         npm run dev
-    ## Клиент:
+        ```
+    ** Клиент:**
+       ```bash
         cd client
         npm run dev
+        ```
 
 ## 🧩 Технологии
 
