@@ -50,6 +50,7 @@
 
 ## 📁 Структура проекта
 
+```bash
 client/
 │──.nuxt/
 │──.output/
@@ -79,7 +80,7 @@ server/
 │──package-lock.json
 │──package.json
 │──server.js
-
+```
 
 > ⚠️ Папки `node_modules` не включены в репозиторий — они будут установлены при запуске проекта.
 
@@ -87,17 +88,22 @@ server/
 
 ## 🚀 Установка и запуск
 
-1. **Клонируй проект:**
+### 1. Клонируй проект:
    git clone https://github.com/DeaforK/career-navigator.git
    cd career-navigator
 
-2. **Установи зависимости:**
+### 2. Установи зависимости:
 
-    cd client && npm install
-    cd ../server && npm install
+    cd client
+    npm install
+
+    cd ../server
+    npm install
+
+
     Создай файл .env в папке server и настрой переменные окружения.
 
-3. **Запусти сервер и клиент:**
+### 3. Запусти сервер и клиент:
 
     ## Сервер:
         cd server
