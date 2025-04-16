@@ -89,8 +89,10 @@ server/
 ## 🚀 Установка и запуск
 
 ### 1. Клонируй проект:
+```bash
    git clone https://github.com/DeaforK/career-navigator.git
    cd career-navigator
+```
 
 ### 2. Установи зависимости:
 ```bash
@@ -106,15 +108,15 @@ server/
 
 ### 3. Запусти сервер и клиент:
    Сервер:
-       ```bash
+   ```bash
         cd server
         npm run dev
-        ```
+   ```
    Клиент:
-       ```bash
+   ```bash
         cd client
         npm run dev
-        ```
+   ```
 
 ## 🧩 Технологии
 
