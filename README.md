@@ -110,7 +110,7 @@ server/
    Сервер:
    ```bash
         cd server
-        npm run dev
+        npm start
    ```
    Клиент:
    ```bash
